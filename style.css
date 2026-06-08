@@ -144,8 +144,8 @@ nav h1 {
   color: #fff;
 }
 /* Portfolio styles */
-.content h1 {
-  color: black;
+.content h2 {
+  color: #ffffab;
 }
 #portfolio {
   list-style: none;
