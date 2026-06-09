@@ -77,6 +77,8 @@
           var positionY = 0;
           var speedY = 10;
           var boardHeight = jQuery(window).height();
+          var randNum = Math.random() * boardWidth;
+          var randNumY = Math.random() * boardHeight;
         
 
 
@@ -116,11 +118,12 @@
          * - move the box to the left side of the screen.
          */
         function handleBoxClick() {
-          positionX = 0;
+          positionX = Math.random() * boardWidth;
+          positionY = Math.random() * boardHeight;
           changeBoxText(points);
           points++;
          speed = 3 * points + 10;
-
+         speedY = 3 * points + 10;
 
         }
 
