@@ -111,7 +111,7 @@ var Gamification = (function () {
 
   // Create player 1 (always green, uses WASD)
   function createPlayer1() {
-    player1 = draw.randomCircleInArea(canvas, true, true, "#00FF00", 3);
+    player1 = draw.randomCircleInArea(canvas, true, true, "#fffcc5", 3);
     player1.radius = 15;
     player1.scaleX = player1.scaleY = 1.5;
 
