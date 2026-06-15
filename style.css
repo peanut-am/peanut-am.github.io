@@ -37,6 +37,7 @@ h2 {
   letter-spacing: -0.04em;
   text-transform: uppercase;
   color: #fbff8b;
+ 
 }
 .content p {
   margin: 0;
@@ -58,6 +59,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: #fbff8b;
+
 }
 #interests ul {
   list-style: none;
