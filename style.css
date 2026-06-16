@@ -5,7 +5,9 @@ body {
   margin: 0;
   background: #dca4f4;
   color: #fbff8b;
-  font-family: "Helevetica Neue", Arial, sans-serif;
+  font-family: "Helevetica Neue", Arial, cursive;
+    background-image: linear-gradient(to bottom, #dca4f4, rgb(207, 62, 255));
+
 }
 #all-contents {
   max-width: 1500px;
@@ -21,7 +23,8 @@ main {
   gap: clamp(32px, 5vw, 80px);
 }
 .sidebar {
-  width: 100%;
+  width: 90%;
+
 }
 .content {
   display: flex;
