@@ -3,12 +3,16 @@
 }
 body {
   margin: 0;
-  background: #dca4f4;
+  background-image: linear-gradient(to top,#9a15ff,#dca4f4);
   color: #fbff8b;
   font-family: "Helevetica Neue", Arial, cursive;
-    background-image: linear-gradient(to bottom, #dca4f4, rgb(207, 62, 255));
+    
+   
+    
 
 }
+
+
 #all-contents {
   max-width: 1500px;
   min-height: 100vh;
